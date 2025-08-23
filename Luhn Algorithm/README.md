@@ -39,6 +39,5 @@ VALID!
 - Curso: Scientific Computing with Python
 - Parte 2: Learn How to Work with Numbers and Strings by Implementing the Luhn Algorithm
 
-
 ---
 Puedes probar con otros números de tarjeta para ver si son válidos o no.
