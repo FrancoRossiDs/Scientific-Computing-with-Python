@@ -1,14 +1,14 @@
-# Case Converter - Mini Proyecto
+# Case Converter - Mini Project
 
-Este mini proyecto implementa una función en Python para convertir cadenas en formato PascalCase o camelCase a snake_case.
+This mini project implements a Python function to convert strings from PascalCase or camelCase to snake_case.
 
-## Archivos
-- `main.py`: Contiene la función para convertir cadenas y un ejemplo de uso.
+## Files
+- `main.py`: Contains the function to convert strings and an example of usage.
 
-## ¿Cómo funciona?
-La función `convert_to_snake_case` toma una cadena en PascalCase o camelCase y la convierte a snake_case, agregando un guion bajo antes de cada letra mayúscula (excepto la primera) y convirtiendo todas las letras a minúsculas.
+## How does it work?
+The function `convert_to_snake_case` takes a PascalCase or camelCase string and converts it to snake_case, adding an underscore before each uppercase letter (except the first) and converting all letters to lowercase.
 
-### Ejemplo de uso
+### Example usage
 ```python
 def convert_to_snake_case(pascal_or_camel_cased_string):
     snake_cased_char_list = [
@@ -17,24 +17,24 @@ def convert_to_snake_case(pascal_or_camel_cased_string):
     ]
     return ''.join(snake_cased_char_list).strip('_')
 
-print(convert_to_snake_case('IAmAPascalCasedString'))  # Salida: i_am_a_pascal_cased_string
+print(convert_to_snake_case('IAmAPascalCasedString'))  # Output: i_am_a_pascal_cased_string
 ```
 
-## Ejecución
-Para ejecutar el programa, usa:
+## Run
+To run the program, use:
 
 ```bash
 python main.py
 ```
 
-## Salida esperada
+## Expected output
 ```
 i_am_a_pascal_cased_string
 ```
 
-## Autor
-- Curso: Scientific Computing with Python
-- Parte 4: Learn Python List Comprehension by Building a Case Converter Program
+## Author
+- Course: Scientific Computing with Python
+- Part 4: Learn Python List Comprehension by Building a Case Converter Program
 
 ---
-Puedes modificar la función para soportar otros formatos de conversión si lo deseas.
+You can modify the function to support other conversion formats if you wish.

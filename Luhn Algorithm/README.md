@@ -1,17 +1,17 @@
-# Luhn Algorithm Mini Proyecto
+# Luhn Algorithm Mini Project
 
-Este proyecto implementa el algoritmo de Luhn en Python para verificar la validez de números de tarjetas de crédito.
+This project implements the Luhn algorithm in Python to verify the validity of credit card numbers.
 
-## Archivos
-- `main.py`: Contiene la lógica para validar un número de tarjeta usando el algoritmo de Luhn.
+## Files
+- `main.py`: Contains the logic to validate a card number using the Luhn algorithm.
 
-## ¿Cómo funciona?
-El programa toma un número de tarjeta (puede contener guiones o espacios), lo limpia y verifica si es válido según el algoritmo de Luhn.
+## How does it work?
+The program takes a card number (which may contain dashes or spaces), cleans it, and checks if it is valid according to the Luhn algorithm.
 
-### Ejemplo de uso
+### Example usage
 ```python
 def verify_card_number(card_number):
-    # ...código...
+    # ...code...
 
 card_number = '4111-1111-4555-1142'
 card_translation = str.maketrans({'-': '', ' ': ''})
@@ -23,21 +23,18 @@ else:
     print('INVALID!')
 ```
 
-## Ejecución
-Para ejecutar el programa, usa:
+## Run
+To run the program, use:
 
 ```bash
 python main.py
 ```
 
-## Salida esperada
+## Expected output
 ```
 VALID!
 ```
 
-## Autor
-- Curso: Scientific Computing with Python
-- Parte 2: Learn How to Work with Numbers and Strings by Implementing the Luhn Algorithm
-
----
-Puedes probar con otros números de tarjeta para ver si son válidos o no.
+## Author
+- Course: Scientific Computing with Python
+- Part 2: Learn How to Work with Numbers and Strings by Implementing the Luhn Algorithm

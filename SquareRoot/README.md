@@ -1,37 +1,37 @@
-# Square Root Bisection - Mini Proyecto
+# Square Root Bisection - Mini Project
 
-Este mini proyecto implementa un algoritmo para calcular la raíz cuadrada de un número usando el método de bisección en Python.
+This mini project implements an algorithm to calculate the square root of a number using the bisection method in Python.
 
-## Archivos
-- `main.py`: Contiene la función para calcular la raíz cuadrada y un ejemplo de uso.
+## Files
+- `main.py`: Contains the function to calculate the square root and an example of usage.
 
-## ¿Cómo funciona?
-La función `square_root_bisection` calcula la raíz cuadrada de un número positivo usando el método de bisección, que es un método numérico iterativo. Permite especificar la tolerancia y el número máximo de iteraciones.
+## How does it work?
+The function `square_root_bisection` calculates the square root of a positive number using the bisection method, which is an iterative numerical method. You can specify the tolerance and the maximum number of iterations.
 
-### Ejemplo de uso
+### Example usage
 ```python
 def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
-    # ...código...
+    # ...code...
 
 N = 16
-square_root_bisection(N)  # Salida: The square root of 16 is approximately 4.0
+square_root_bisection(N)  # Output: The square root of 16 is approximately 4.0
 ```
 
-## Ejecución
-Para ejecutar el programa, usa:
+## Run
+To run the program, use:
 
 ```bash
 python main.py
 ```
 
-## Salida esperada
+## Expected output
 ```
 The square root of 16 is approximately 4.0
 ```
 
-## Autor
-- Curso: Scientific Computing with Python
-- Parte 5: Learn the Bisection Method by Finding the Square Root of a Number
+## Author
+- Course: Scientific Computing with Python
+- Part 5: Learn the Bisection Method by Finding the Square Root of a Number
 
 ---
-Puedes modificar los parámetros de tolerancia y número de iteraciones para experimentar con la precisión del resultado.
+You can modify the tolerance and number of iterations to experiment with the result's precision.

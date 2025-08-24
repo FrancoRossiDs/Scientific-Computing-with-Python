@@ -1,30 +1,30 @@
-# Cipher Mini Proyecto
+# Cipher Mini Project
 
-Este proyecto es una implementación simple del cifrado de Vigenère en Python. Permite cifrar y descifrar mensajes utilizando una clave personalizada.
+This project is a simple implementation of the Vigenère cipher in Python. It allows you to encrypt and decrypt messages using a custom key.
 
-## Archivos
-- `main.py`: Contiene toda la lógica para cifrar y descifrar mensajes usando el cifrado de Vigenère.
+## Files
+- `main.py`: Contains all the logic to encrypt and decrypt messages using the Vigenère cipher.
 
-## ¿Cómo funciona?
-El programa toma un texto cifrado y una clave personalizada, y utiliza el algoritmo de Vigenère para descifrar el mensaje. También puede cifrar cualquier texto que ingreses.
+## How does it work?
+The program takes an encrypted text and a custom key, and uses the Vigenère algorithm to decrypt the message. It can also encrypt any text you enter.
 
-### Ejemplo de uso
+### Example usage
 ```python
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'happycoding'
 
 decryption = decrypt(text, custom_key)
-print(decryption)  # Salida: freecodecamp is awesome
+print(decryption)  # Output: freecodecamp is awesome
 ```
 
-## Ejecución
-Para ejecutar el programa, simplemente corre:
+## Run
+To run the program, simply execute:
 
 ```bash
 python Cipher/main.py
 ```
 
-## Salida esperada
+## Expected output
 ```
 Encrypted text: mrttaqrhknsw ih puggrur
 Key: happycoding
@@ -32,9 +32,9 @@ Key: happycoding
 Decrypted text: freecodecamp is awesome
 ```
 
-## Autor
-- Curso: Scientific Computing with Python
-- Parte 1: Learn String Manipulation by Building a Cipher
+## Author
+- Course: Scientific Computing with Python
+- Part 1: Learn String Manipulation by Building a Cipher
 
 ---
-¡Puedes modificar la clave y el texto para probar diferentes resultados!
+You can change the key and text to try different results!
