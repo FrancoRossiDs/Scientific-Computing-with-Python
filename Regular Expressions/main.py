@@ -19,16 +19,22 @@ def generate_password(length=16, nums=1, special_chars=1, uppercase=1, lowercase
         for _ in range(length):
             password += secrets.choice(all_characters)
         
+        # Define the constraints
         constraints = [
+            # Number of digits
             (nums, r'\d'),
+            # Number of special characters
             (special_chars, fr'[{symbols}]'),
+            # Number of uppercase characters
             (uppercase, r'[A-Z]'),
+            # Number of lowercase characters
             (lowercase, r'[a-z]')
         ]
 
         # Check constraints        
         if all(
             constraint <= len(re.findall(pattern, password))
+            # Check for at least one character from each required set
             for constraint, pattern in constraints
         ):
             break
